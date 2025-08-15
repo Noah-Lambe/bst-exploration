@@ -33,3 +33,50 @@
 .status {
   margin: 8px 0;
 }
+.panel {
+  border: 1px solid #ddd;
+  padding: 12px;
+  border-radius: 8px;
+  margin: 12px 0;
+}
+.row {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.row.between {
+  justify-content: space-between;
+}
+.text-input {
+  min-width: 280px;
+  padding: 6px 8px;
+}
+.json-view {
+  background: #0b1020;
+  color: #d6e7ff;
+  padding: 12px;
+  border-radius: 8px;
+  overflow: auto;
+  max-height: 40vh;
+}
+.history-list {
+  list-style: none;
+  padding: 0;
+  margin: 8px 0 0;
+}
+.history-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #eee;
+  padding: 8px;
+  border-radius: 8px;
+  margin-bottom: 6px;
+}
+.muted {
+  color: #666;
+}
+.history-actions button {
+  margin-left: 6px;
+}
